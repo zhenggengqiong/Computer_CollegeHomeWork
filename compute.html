@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Compute</title>
+
+	<link rel="stylesheet" href="compute.css" id="css">
+
+</head>
+
+<body>
+	<div class="box">
+		<div class="inputBox">
+			<input type="text" id="input" class="input"  value="0">
+		</div>
+		<div class="buttons">
+			<div class="b1">
+				<button class="AC" id="AC" >AC</button>
+			</div>
+			<div class="b1">
+				<button class="AC" id="DEL" onClick="backSpace()">DEL</button>
+			</div>
+			<div class="b1">
+				<button class="orange" id="chuyu" onClick="get(this)" value="%">%</button>
+			</div>
+			<div class="b1">
+				<button class="orange" id="div" onClick="get(this)" value="/">÷</button>
+			</div>
+			<div class="b1">
+				<button id="n7" onClick="get(this)" value="7">7</button>
+			</div>
+			<div class="b1">
+				<button  id="n8" onClick="get(this)" value="8" >8</button>
+			</div>
+			<div class="b1">
+				<button  id="n9" onClick="get(this)" value="9" >9</button>
+			</div>
+			<div class="b1">
+				<button id="mul"  class="orange"  onClick="get(this)" value="*">×</button>
+			</div>
+			<div class="b1">
+				<button id="n4"  onClick="get(this)" value="4" >4</button>
+			</div>
+			<div class="b1">
+				<button  id="n5" onClick="get(this)" value="5" >5</button>
+			</div>
+			<div class="b1">
+				<button id="n6"  onClick="get(this)" value="6" >6</button>
+			</div>
+			<div class="b1">
+				<button class="orange" id="sub" onClick="get(this)" value="-">-</button>
+			</div>
+			<div class="b1">
+				<button id="n1"  onClick="get(this)" value="1" >1</button>
+			</div>
+			<div class="b1">
+				<button id="n2"  onClick="get(this)" value="2" >2</button>
+			</div>
+			<div class="b1">
+				<button id="n3"  onClick="get(this)" value="3" >3</button>
+			</div>
+			<div class="b1">
+				<button  id="plus" class="orange"  onClick="get(this)" value="+">+</button>
+			</div>
+			<div class="b1">
+				<button  id="point" onClick="get(this)" value=".">.</button>
+			</div>
+			<div class="b1">
+				<button  id="n0" onClick="get(this)" value="0">0</button>
+			</div>
+
+			<div class="b2">
+				<button class="blue" id="result" onClick="is()" value="=">=</button>
+			</div>
+		</div>
+	</div>
+ 	<div class="b3">
+    	<button id="change" class="change"  onClick="change()">Change Style</button>
+    </div>
+    
+</body>
+	
+	<script src="compute.js"></script>
+	
+</html>

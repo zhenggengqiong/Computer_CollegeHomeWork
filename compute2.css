@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0;padding: 0;}
+		.box{width: 350px;height: 420px; background-color:#CCC;margin: 20px auto;position: relative;}
+		.buttons{width: 350px;height: 320px;position: absolute;bottom: 0;}
+		.b1{float: left;background-color: #CCC;width: 87.5px;height: 64px;}
+		button{cursor: pointer; width: 83px; height: 60px; margin: 2px 2px 0; border: 0; background-color: white; color: black ;font-size: 1.5em;}
+		.b2{float: right;background-color: #CCC;width: 175px;height: 64px;}
+		.orange{cursor: pointer; width: 83px; height: 60px; margin: 2px 2px 0; border: 0; background-color: white; color: #09F; font-size: 1.5em;}
+		.blue{cursor: pointer; width: 171px; height:60px; margin: 2px 2px 0; border: 0; background-color:#09F; color: white; font-size: 1.5em;}
+		.AC{cursor: pointer; width: 83px; height: 60px; margin: 2px 2px 0; border: 0; background-color: white; color: orange;font-size: 2em;}
+		.inputBox{height: 80px; width: 330px; color: white; position: absolute;top: 10px;left: 8px;}
+		.input{height: 78px; width: 330px; color: black;background-color:white; font-size: 1.2em;}
+		.b3{ position:absolute; right:0; top:0;}
+		.change{ background-color:#F63; width:120px; height:40px; font-size:1.1em; color:black;}
